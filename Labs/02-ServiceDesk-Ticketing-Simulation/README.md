@@ -33,6 +33,31 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 * **Customer Communication (Closure Note):**
   > "Alright! I've reconnected the VPN and mapped the drive, please confirm you have access to the shared drive files."
 
+---
+
+### Ticket #002:
+* **User Issue:**
+* **Severity Level:**
+* **Category:**
+* **Resolution Workflow:**
+   1. Placeholder
+   2. Placeholder
+   3. Placeholder 
+* **Customer Communication (Closure Note):**
+  > "Placeholder."
+
+---
+
+### Ticket #003:
+* **User Issue:**
+* **Severity Level:**
+* **Category:**
+* **Resolution Workflow:**
+   1. Placeholder
+   2. Placeholder
+   3. Placeholder 
+* **Customer Communication (Closure Note):**
+  > "Placeholder."
 
 ---
 
