@@ -19,27 +19,20 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 
 ## 📋 Simulated Ticket Scenarios
 
-### Ticket #101: Account Lockout & Password Reset
-* **User Issue:** User locked out of network domain after multiple failed login attempts.
-* **Severity Level:** Low (Single user impact)
-* **Category:** Identity & Access Management / Active Directory
+### Ticket #001: VPN Connection Failure & Network Drive Re-Mapping
+* **User Issue:** User unable to access shared drive files from home, receiving "the network path was not found" error message.
+* **Severity Level:** High (User unable to preform core duties remotely)
+* **Category:** Network / VPN
 * **Resolution Workflow:**
-  1. Verified user identity following standard security verification protocols.
-  2. Unlocked user account and forced password reset in administrative console.
-  3. Advised user on updating stored credentials on mobile devices to prevent automated re-lockouts.
+  1. Touched base with user, confirmed the issue and asked for permission to remote connect to PC.
+  2. Consulted file server SOP and noted department shared drive pathway.
+  3. Remote connected to user's PC.
+  4. Reconnected corporate VPN.
+  5. Mapped network drive.
+  6. Reviewed steps taken and had user confirm she can access shared drive files.
 * **Customer Communication (Closure Note):**
-  > "Hello [User], your account has been unlocked and a temporary password has been issued. Please log in using the temporary credentials and set a new password. If you experience further issues, reply directly to this ticket."
+  > "Alright! I've reconnected the VPN and mapped the drive, please confirm you have access to the shared drive files."
 
-### Ticket #102: Remote Access / VPN Connection Failure
-* **User Issue:** Remote worker unable to establish VPN tunnel to corporate network
-* **Severity Level:** Medium (User unable to perform core duties remotely)
-* **Category:** Network & Connectivity / VPN
-* **Resolution Workflow:**
-  1. Verified user's local internet connection was active.
-  2. Inspected VPN client logs; identified stale authentication tokens and misconfigured gateway address.
-  3. Guided user through clearing client cache and re-entering the primary VPN gateway server address.
-* **Customer Communication (Closure Note):**
-  > "Hi [User], we have updated your VPN configuration settings. Your connection has been verified and restored. Please let us know if you encounter any further connectivity drops."
 
 ---
 
