@@ -35,7 +35,7 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 
 ---
 
-### Ticket #002:
+### Ticket #002: Faulty Workstation Replacement
 * **User Issue:** Customer service agent's workstation is completely dead, nothing happens when they press the power button.
 * **Severity Level:** Critical (Calls queueing with no one to take them)
 * **Category:** Desktop deployment / Asset management
