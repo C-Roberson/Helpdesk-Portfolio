@@ -36,15 +36,16 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 ---
 
 ### Ticket #002:
-* **User Issue:**
-* **Severity Level:**
-* **Category:**
+* **User Issue:** Customer service agent's workstation is completely dead, nothing happens when they press the power button.
+* **Severity Level:** Critical (Calls queueing with no one to take them)
+* **Category:** Desktop deployment / Asset management
 * **Resolution Workflow:**
-   1. Placeholder
-   2. Placeholder
-   3. Placeholder 
+   1. Confirmed if unit was truly dead by having user plug it into a different outlet. User confirmed no change, lights and fans not responding.
+   2. Verified if unit was a laptop or desktop to deploy correct replacement system. User confirmed unit is a desktop and the best address to ship replacement.
+   3. Consulted desktop deployment SOP, setup physical workstation, completed server imaging, named unit. Then registered asset and shipped replacement unit to user provided address.
+   4. Confirmed user received new unit and it worked properly. Requested they ship the faulty unit back using the provided return label.
 * **Customer Communication (Closure Note):**
-  > "Placeholder."
+  > "Perfect! Please go ahead and return that old unit with the provided return label and you'll be all set!"
 
 ---
 
