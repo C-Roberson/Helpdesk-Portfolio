@@ -1,5 +1,5 @@
 # Helpdesk-Portfolio
-# Celeste Roberson | Help Desk Technician
+# Celeste Roberson | Technical Support Specialist
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-profile)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=flat&logo=gmail)](mailto:CQJ.Roberson@gmail.com)
