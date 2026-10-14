@@ -1,5 +1,5 @@
 # Helpdesk-Portfolio
-# Celeste Roberson | Technical Support Specialist
+# Celeste Roberson | Help Desk Technician
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-profile)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=flat&logo=gmail)](mailto:CQJ.Roberson@gmail.com)
@@ -8,7 +8,7 @@
 ---
 
 ## 👩🏽‍💻 About Me
-Technical Support Specialist with 3+ years of experience in high-volume intake, transaction logging, and tier 1 customer support. Focused on systematic troubleshooting, continuous learning, and providing empathetic end-user support.
+Help Desk Technician with 3+ years of experience in high-volume intake, transaction logging, and tier 1 customer support. Focused on systematic troubleshooting, continuous learning, and providing empathetic end-user support.
 
 ---
 
