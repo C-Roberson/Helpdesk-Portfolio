@@ -8,7 +8,7 @@
 ---
 
 ## 👩🏽‍💻 About Me
-Detail-oriented **Help Desk Technician** with a strong foundation in hardware/software troubleshooting, user administration, and ticketing workflows. Experienced in delivering clear customer support, resolving technical incidents, and maintaining comprehensive technical documentation.
+Technical Support Specialist with 3+ years of experience in high-volume intake, transaction logging, and tier 1 customer support. Focused on systematic troubleshooting, continuous learning, and providing empathetic end-user support.
 
 ---
 
@@ -23,7 +23,7 @@ Detail-oriented **Help Desk Technician** with a strong foundation in hardware/so
 ---
 
 ## 📜 Certifications
-* **Google IT Support Professional Certificate** | Google *(In Progress)*
+* **Google IT Support Professional Certificate** | Coursera | *Sept 2026*
 * **CompTIA A+** | CompTIA *(In Progress)*
 
 ---
