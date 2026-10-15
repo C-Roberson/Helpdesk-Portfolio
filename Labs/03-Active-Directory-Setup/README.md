@@ -55,7 +55,7 @@ home.lab (Domain Root)
 ```
 ---
 
-> # 📃 License
+> 📃 **License**
 >* This repository is open-source and available under the MIT License
 
 ---
