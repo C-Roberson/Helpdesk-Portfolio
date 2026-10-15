@@ -9,14 +9,14 @@ The **CompTIA A+** is the industry-standard baseline certification for launching
 ## 📚 Core Exam Structure
 The certification is divided into two comprehensive exams covering the full scope of technical support responsibilities:
 
-1. **Core 1 (220-1101)**
+1. **Core 1 (220-1201)**
    * **Mobile Devices:** Laptop hardware, mobile device management (MDM), and smartphone configuration.
    * **Networking:** TCP/IP models, port numbers, Wi-Fi standards, routers, and network troubleshooting.
    * **Hardware:** Motherboards, CPUs, RAM types, power supplies, storage devices, and expansion cards.
    * **Virtualization & Cloud Computing:** Client-side virtualization and cloud service models.
    * **Hardware & Network Troubleshooting:** Resolving physical display, device, and connectivity issues.
 
-2. **Core 2 (220-1102)**
+2. **Core 2 (220-1202)**
    * **Operating Systems:** Comprehensive administration and troubleshooting for Windows 10/11, macOS, and Linux.
    * **Security:** Physical security, malware mitigation, user authentication, access control policies, and data privacy.
    * **Software Troubleshooting:** Resolving OS boot errors, application failures, and mobile security vulnerabilities.
