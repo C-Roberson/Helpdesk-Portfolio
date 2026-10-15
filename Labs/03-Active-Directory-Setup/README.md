@@ -13,6 +13,12 @@ Designed and implemented an isolated enterprise domain environment (`home.lab`) 
 
 ---
 
+## 🔧 Troubleshooting Log
+| **Symptom/Issue** | **Root Cause** | **Resolution** |
+| Client workstation failed initial domain join with "The network path was not found." | The client virtual machine NIC was attached to a Bridged Adapter instead of the isolated NAT Network. | Switched the adapter settings back to the correct NAT Network, verified DNS connectivity using nslookup home.lab, and retried the domain join successfully. |
+
+---
+
 ## 🗺️ Environment Topology & Architecture
 
 ### 1. Network Topology (Virtual Infrastructure Layer)
@@ -33,23 +39,17 @@ Designed and implemented an isolated enterprise domain environment (`home.lab`) 
              └──► [ FIN-WS01 ]  (Windows 11 Pro for Workstation | IP: 192.168.10.50)
                                 └── Role: Domain-Joined Client Workstation
 
-```text
+---
+
 home.lab (Domain Root)
 ├── Finance (Departmental user accounts)
 ├── Marketing (Departmental user accounts)
 ├── HR (Human Resources user accounts)
 ├── IT (System administration and support staff)
 ├── Workstations (Domain-joined computer objects)
-└── ServiceAccounts (Automated scripts and service accounts)
+└── ServiceAccounts (Automated scripts and service accounts) 
 
 ---
 
-## 🔧 Troubleshooting Log
-| **Symptom/Issue** | **Root Cause** | **Resolution** |
-| Client workstation failed initial domain join with "The network path was not found." | The client virtual machine NIC was attached to a Bridged Adapter instead of the isolated NAT Network. | Switched the adapter settings back to the correct NAT Network, verified DNS connectivity using nslookup home.lab, and retried the domain join successfully. | 
-
----
-
-```text
 ## 📃 License
 This repository is open-source and available under the MIT License.
