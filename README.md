@@ -34,9 +34,9 @@ Help Desk Technician with 3+ years of experience in high-volume intake, transact
 | :--- | :--- | :--- | :--- |
 | **Lab** | [01 - Display Hardware Diagnostics](./Labs/01-Display-Hardware-Diagnostics) | Windows Diagnostics, Display Drivers | Systematic troubleshooting and resolution of laptop panel issues. |
 | **Lab** | [02 - ServiceDesk Ticketing Simulation](./Labs/02-ServiceDesk-Ticketing-Simulation) | ServiceDesk-Simulator.com | Ticket triage, severity categorization, user communication, and SLA management. |
-| **Lab** | [03 - Active Directory Setup](./Labs/03-Active-Directory-Setup) | Oracle VirtualBox | 
-| **Documentation** | [MFA Enrollment Guide](./Knowledge-Base/MFA-Enrollment-Guide.md) | Markdown, ServiceNow, Microsoft 365 & Microsoft Authenticator | **End-User Communication:** Demonstrates technical writing, user empathy, and ability to draft step-by-step self-service guides. |
-| **Documentation** | [New Hire Account Provisioning SOP](./SOPs/New-Hire-Account-Provisioning-SOP.md) | Markdown, ServiceNow, Diagnostics & Command-Line Utilities | **Process Discipline:** Proves familiarity with administrative workflows, compliance frameworks, and secure identity management. |
+| **Lab** | [03 - Active Directory Setup](./Labs/03-Active-Directory-Setup) | Oracle VirtualBox, Windows Server 2022, Windows 10/11, DNS | Deployed an isolated enterprise domain, provisioned OUs, and joined a client workstation completely through PowerShell automation. |
+| **Documentation** | [MFA Enrollment Guide](./Knowledge-Base/MFA-Enrollment-Guide.md) | Markdown, ServiceNow, Microsoft 365 & Microsoft Authenticator | **End-User Communication:** Technical writing, user empathy, and ability to draft step-by-step self-service guides. |
+| **Documentation** | [New Hire Account Provisioning SOP](./SOPs/New-Hire-Account-Provisioning-SOP.md) | Markdown, ServiceNow, Diagnostics & Command-Line Utilities | **Process Discipline:** Familiarity with administrative workflows, compliance frameworks, and secure identity management. |
 
 ---
 
