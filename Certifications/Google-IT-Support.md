@@ -2,6 +2,7 @@
 
 * **Credential Provider:** Coursera
 * **Status:** Completed September 2026
+* **Verification:** [https://www.coursera.org/account/accomplishments/professional-cert/7FSMT3ATRLVL]
 
 ## 🔍 Program Overview
 The Google IT Support Professional Certificate is a rigorous, hands-on training program designed to build foundational expertise in information technology and help desk operations. The curriculum focuses heavily on real-world troubleshooting, customer service methodologies, system administration, and infrastructure security.
