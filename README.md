@@ -24,7 +24,7 @@ Help Desk Technician with 3+ years of experience in high-volume intake, transact
 
 ## 📜 Certifications
 * **Google IT Support Professional Certificate** | Coursera | *Sept 2026*
-* **CompTIA A+** | CompTIA *(In Progress)*
+* **CompTIA A+** | CompTIA | *(In Progress)*
 
 ---
 
