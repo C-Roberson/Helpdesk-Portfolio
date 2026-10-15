@@ -33,7 +33,7 @@ Help Desk Technician with 3+ years of experience in high-volume intake, transact
 | Category | Project Title | Key Tools Used | Description |
 | :--- | :--- | :--- | :--- |
 | **Lab** | [01 - Display Hardware Diagnostics](./Labs/01-Display-Hardware-Diagnostics) | Windows Diagnostics, Display Drivers | Systematic troubleshooting and resolution of laptop panel issues. |
-| **Lab** | [02 - ServiceDesk Ticketing Simulation](./Labs/02-ServiceDesk-Ticketing-Simulation) | ServiceDesk-Simulation.com | Ticket triage, severity categorization, user communication, and SLA management. |
+| **Lab** | [02 - ServiceDesk Ticketing Simulation](./Labs/02-ServiceDesk-Ticketing-Simulation) | ServiceDesk-Simulator.com | Ticket triage, severity categorization, user communication, and SLA management. |
 | **Lab** | [03 - Active Directory Setup](./Labs/03-Active-Directory-Setup) | Oracle VirtualBox | 
 | **Documentation** | [MFA Enrollment Guide](./Knowledge-Base/MFA-Enrollment-Guide.md) | **End-User Communication:** Demonstrates technical writing, user empathy, and ability to draft step-by-step self-service guides. |
 | **Documentation** | [New Hire Account Provisioning SOP](./SOPs/New-Hire-Account-Provisioning-SOP.md) | **Process Discipline:** Proves familiarity with administrative workflows, compliance frameworks, and secure identity management. |
@@ -51,8 +51,8 @@ Help Desk Technician with 3+ years of experience in high-volume intake, transact
              |
    [ VirtualBox NAT Network ] (198.162.10.0/24 - Promiscuous mode enabled)
              |
-             ├─► [ DC01 ]    (Windows Server 2022 Core | IP: 192.168.10.10 | Preferred DNS: 127.0.0.1)
-             |               └── Roles: Active Directory Domain Controller (home.lab) / DNS / DHCP
-             └─► [ FN-WS01 ] (Windows 10/11 Pro | IP: 192.168.10.50 | Preferred DNS: 192.168.10.10)
-                             └── Roles: Domain-Joined Client Workstation
+             ├─► [ DC01 ]     (Windows Server 2022 Core | IP: 192.168.10.10 | Preferred DNS: 127.0.0.1)
+             |                └── Roles: Active Directory Domain Controller (home.lab) / DNS / DHCP
+             └─► [ FN-WS01 ]  (Windows 10/11 Pro | IP: 192.168.10.50 | Preferred DNS: 192.168.10.10)
+                              └── Roles: Domain-Joined Client Workstation
 
