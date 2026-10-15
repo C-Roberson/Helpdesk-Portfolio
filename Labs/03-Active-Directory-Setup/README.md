@@ -39,12 +39,23 @@ Designed and implemented an isolated enterprise domain environment (`home.lab`) 
              │
              └──► [ FIN-WS01 ]  (Windows 11 Pro for Workstation | IP: 192.168.10.50)
                                 └── Role: Domain-Joined Client Workstation
+```
+---
 
-
+## Logical Directory Structure (OU Hierarchy)
+* Structured enterprise user and computer objects via PowerShell to prepare for future Group Policy (GPO) targeting:
+```text
 home.lab (Domain Root)
 ├── Finance (Departmental user accounts)
 ├── Marketing (Departmental user accounts)
 ├── HR (Human Resources user accounts)
 ├── IT (System administration and support staff)
 ├── Workstations (Domain-joined computer objects)
-└── ServiceAccounts (Automated scripts and service accounts) 
+└── ServiceAccounts (Automated scripts and service accounts)
+```
+---
+
+> License
+This repository is open-source and available under the MIT License
+
+---
