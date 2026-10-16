@@ -23,21 +23,21 @@ Designed and implemented an isolated enterprise domain environment (`home.lab`) 
 ## 🗺️ Environment Topology & Architecture
 
 ### 1. Network Topology (Virtual Infrastructure Layer)
-* **Virtual Network:** NAT Network (`192.168.10.0/24`)
-* **DC01 (Domain Controller):** Windows Server 2022 Core | Static IP: `192.168.10.10` | Preferred DNS: `127.0.0.1`
-* **FIN-WS01 (Client Workstation):** Windows 11 Pro for Workstation | IP: `192.168.10.50` | Preferred DNS: `192.168.10.10`
+* **Virtual Network:** NAT Network (`10.0.2.0/24`)
+* **DC01 (Domain Controller):** Windows Server 2022 Core | Static IP: `10.0.2.10` | Preferred DNS: `127.0.0.1`
+* **FIN-WS01 (Client Workstation):** Windows 11 Pro for Workstation | IP: `10.0.2.50` | Preferred DNS: `10.0.2.10`
 
 ```text
 [ Router / Internet Gateway ]
              │
    [ VirtualBox Host ]
              │
-   [ VirtualBox NAT Network ] (192.168.10.0/24 - Promiscuous Mode Enabled)
+   [ VirtualBox NAT Network ] (10.0.2.0/24 - Promiscuous Mode Enabled)
              │
-             ├──► [ DC01 ]      (Windows Server 2022 Core | IP: 192.168.10.10)
+             ├──► [ DC01 ]      (Windows Server 2022 Core | IP: 10.0.2.10 | DNS: 127.0.0.1)
              │                  └── Roles: Active Directory Domain Controller (home.lab) / DNS
              │
-             └──► [ FIN-WS01 ]  (Windows 11 Pro for Workstation | IP: 192.168.10.50)
+             └──► [ FIN-WS01 ]  (Windows 11 Pro for Workstation | IP: 10.0.2.50 | Preferred DNS: 10.0.2.10)
                                 └── Role: Domain-Joined Client Workstation
 ```
 ---
