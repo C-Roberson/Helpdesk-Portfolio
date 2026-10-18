@@ -49,10 +49,10 @@ Help Desk Technician with 3+ years of experience in high-volume intake, transact
    │  VirtualBox Host  │
    └─────────┬─────────┘
              |
-   [ VirtualBox NAT Network ] (198.162.10.0/24 - Promiscuous mode enabled)
+   [ VirtualBox NAT Network ] (10.0.2.0/24 - Promiscuous mode enabled)
              |
-             ├─► [ DC01 ]     (Windows Server 2022 Core | IP: 192.168.10.10 | Preferred DNS: 127.0.0.1)
+             ├─► [ DC01 ]     (Windows Server 2022 Core | IP: 10.0.2.10 | Preferred DNS: 127.0.0.1)
              |                └── Roles: Active Directory Domain Controller (home.lab) / DNS / DHCP
-             └─► [ FN-WS01 ]  (Windows 10/11 Pro | IP: 192.168.10.50 | Preferred DNS: 192.168.10.10)
+             └─► [ FN-WS01 ]  (Windows 11 Pro for Workstation | IP: 10.0.2.50 | Preferred DNS: 10.0.2.10)
                               └── Roles: Domain-Joined Client Workstation
 
