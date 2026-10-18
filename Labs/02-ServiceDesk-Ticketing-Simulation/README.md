@@ -49,16 +49,17 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 
 ---
 
-### Ticket #003:
-* **User Issue:**
-* **Severity Level:**
-* **Category:**
+### Ticket #003: Faulty Switch
+* **User Issue:** User is unable to access internet
+* **Severity Level:** Critical (Multiple users cannot access email, cloud apps, or any websites. Work completely halted)
+* **Category:** Network / Hardware
 * **Resolution Workflow:**
-   1. Placeholder
-   2. Placeholder
-   3. Placeholder 
+   1. Confirmed scope of the outage with the user and affected coworkers, isolating the issue to Floor 1 network segment. Notified the user that server room infrastructure was being inspected.
+   2. Inspected server room equipment and identified an error status on the Floor 1 network switch requiring a reboot.
+   3. Rebooted the faulty switch to clear the error state.
+   4. Verified connection stability; confirmed with the user that internet access is fully restored.
 * **Customer Communication (Closure Note):**
-  > "Placeholder."
+  > "Hi Rachel, we identified and resolved a hardware status error on the Floor 1 network switch. Connectivity has been tested and verified stable. Please reach back out if you experience any further issues."
 
 ---
 
