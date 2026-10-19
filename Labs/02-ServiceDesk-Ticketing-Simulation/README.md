@@ -30,7 +30,7 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
   4. Re-established the corporate VPN tunnel to restore network connection.
   5. Remapped the target network share drive path to the local system.
   6. Conducted end-to-end verification with the user to confirm full read/write access to shared drive files..
-* **Initial Tool Response:**
+* **Initial Closure Note:**
   > *"Alright! I've reconnected the VPN and mapped the drive, please confirm you have access to the shared drive files."*
 * **Professional Standard:**
   > *"Hi Sarah, I have re-established your corporate VPN connection and successfully remapped your department network drive. Access to your shared files is now fully restored and verified. Please let us know if you experience any further connection issues!"*
@@ -47,7 +47,7 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
    3. Consulted desktop deployment SOP to configure physical hardware, execute server-based PXE OS imaging, assign host naming conventions, and log the asset in the management database.
    4. Dispatched replacement unit to user's address with expedited tracking and return shipping label.
    5. Verified successful delivery, confirmed system functionality with user, and instructed user on returning the faulty workstation via prepaid return label.
-* **Initial Tool Response:**
+* **Initial Closure Note:**
   > *"Perfect! Please go ahead and return that old unit with the provided return label and you'll be all set!"*
 * **Professional Standard:**
   > *"Hi Quinn, your replacement workstation has been successfully deployed and verified. Please use the included prepaid shipping label to return the faulty desktop unit at your earliest convenience. Let us know if you need any assistance setting up!"*
@@ -63,26 +63,28 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
    2. Inspected server room equipment and identified an error status on the Floor 1 network switch requiring a reboot.
    3. Rebooted the faulty switch to clear the error state.
    4. Verified connection stability; confirmed with the user that internet access is fully restored.
-* **Initial Tool Response:**
+* **Initial Closure Note:**
   > *"Perfect! Please reach back out if you have further issues."*
 * **Professional Standard:**
   > *"Hi Rachel, we identified and resolved a hardware status error on the Floor 1 network switch. Connectivity has been tested and verified stable. Please reach back out if you experience any further issues."*
 
 ---
 
-### Ticket #004: 
-* **User Issue:** 
-* **Severity Level:** 
-* **Category:** 
+### Ticket #004: AD Profile Management
+* **User Issue:** User recently was married and has legally changed their last name, now needs AD account updated.
+* **Severity Level:** Low (P4 - Individual account update)
+* **Category:** Identity Verification / AD Administration
 * **Resolution Workflow:**
-   1. placeholder
-   2. placeholder
-   3. placeholder
-   4. placeholder
-* **Initial Tool Response:**
-  > *" "*
+   1. Referenced Identity Verification SOP 
+   2. Initiated identity verification process with user. Asked for employee-ID, department, and direct manager then cross-checked information given with that listed in AD.
+   3. Sent SMS verification code to phone number in AD and notified user to send received code back.
+   4. Once identity verification process was complete, confirmed spelling of new last name with user.
+   5. Updated display name, email, and set the previous email as an alias to maintain access to older emails.
+   6. Notified user that profile has been updated, and user confirmed information was correct.
+* **Initial Closure Note:**
+  > *"You're all set! I've updated your display name, email, and added your previous email as an alias. Please confirm the information is correct on your end."*
 * **Professional Standard:**
-  > *" "*
+  > *"Hi Amanda, your AD profile has been updated to reflect your legal name change. I have updated your display name, email, and added your previous email as an alias. Please confirm the information is correct, and let us know if any adjustments are needed!"*
 
 ---
 
