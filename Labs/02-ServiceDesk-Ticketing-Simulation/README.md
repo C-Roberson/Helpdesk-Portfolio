@@ -88,22 +88,6 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 
 ---
 
-### Ticket #005: 
-* **User Issue:** 
-* **Severity Level:** 
-* **Category:** 
-* **Resolution Workflow:**
-   1. placeholder
-   2. placeholder
-   3. placeholder
-   4. placeholder
-* **Initial Tool Response:**
-  > *" "*
-* **Professional Standard:**
-  > *" "*
-
----
-
 ## 📊 Performance Summary
 | Metric | Target | Achieved |
 | :--- | :--- | :--- |
