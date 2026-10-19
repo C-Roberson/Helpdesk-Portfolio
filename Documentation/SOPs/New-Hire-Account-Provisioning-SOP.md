@@ -14,10 +14,10 @@ Onboarding a new employee is more than just setting up an email address—it's a
 
 ## 2. Tools & Prerequisites
 Before you start, make sure you have access to the following:
-*The incoming HR onboarding ticket in Jira (must include written manager approval)
-*Remote Server Administration Tools (RSAT) or direct access to Domain Controller `DC01`.
-*The [Microsoft Entra ID Admin Center](https://entra.microsoft.com).
-*PowerShell 5.1+ (for running our automated provisioning script).
+* The incoming HR onboarding ticket in Jira (must include written manager approval)
+* Remote Server Administration Tools (RSAT) or direct access to Domain Controller `DC01`.
+* The [Microsoft Entra ID Admin Center](https://entra.microsoft.com).
+* PowerShell 5.1+ (for running our automated provisioning script).
 
 ---
 
