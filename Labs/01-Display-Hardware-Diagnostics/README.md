@@ -21,6 +21,7 @@
 ---
 
 ## Diagnostic Walkthrough
+  
   ***1. Initial triage & external output verification***
 * **Observation:** Laptop powered on successfully (power indicator active, cooling fans operational, keyboard backlights illuminated), but the internal display remained completely black.
 * **Action:** Connected an external monitor via HDMI to test video output.
