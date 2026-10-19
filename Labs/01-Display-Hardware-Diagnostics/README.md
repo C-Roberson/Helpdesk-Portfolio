@@ -1,26 +1,30 @@
 # Lab 01: Display Hardware Diagnostic & Internal Screen Troubleshooting
 
-## Project Title & Objective
+## 🎯 Project Title & Objective
 * **Title:** Troubleshooting Laptop Internal Display Failure
 * **Objective:** Systematically diagnose and isolate a black laptop screen, determining whether the root cause stems from software/drivers or physical hardware failure.
 
 ---
 
-## Tech Stack & Tools
+## 🛠 Tech Stack & Tools
 * **Operating System:** Windows 11 Home
 * **Hardware:** Razor Blade 17 Laptop (Internal Display Panel), External Monitor (HDMI/USB-C)
 * **Diagnostics Utilities:** Windows Display Settings, Device Manager, BIOS/UEFI Environment, Graphics Driver Reset Shortcut (`Win + Ctrl + Shift + B`)
 
 ---
 
-## Environment & Hardware Topology
+## 🗺 Environment & Hardware Topology
 ```text
-
+[ Laptop Motherboard / CPU/GPU ] 
+       │
+       ├─► External Video Port (HDMI/DP) ──► External Monitor (Functional / Display 1)
+       │
+       └─► eDP Ribbon Cable ─────────────► Internal Display Panel (Failed / Unrecognized)
 ```
 
 ---
 
-## Diagnostic Walkthrough
+## ✍️🏼 Diagnostic Walkthrough
 1. Initial triage & external output verification
     * **Observation:** Laptop powered on successfully (power indicator active, cooling fans operational, keyboard backlights illuminated), but the internal display remained completely black.
     * **Action:** Connected an external monitor via HDMI to test video output.
@@ -36,14 +40,14 @@
 
 ---
 
-## Troubleshooting Log
+## 🔧 Troubleshooting Log
 | Symptom | Diagnostic Test Performed | Root Cause Identified | Resolution & Mitigation |
 | :--- | :--- | :--- | :--- |
 |Internal screen black; external monitor works fine | Tested external video output, attempted driver reset shortcut, and checked BIOS behavior. | Physical hardware failure (Loose eDP display cable, faulty panel backlight, or disconnected ribbon connector). | 1. Configured Windows power options for "Clamshell Mode" (do nothing when the lid is closed) to use the laptop as a desktop with the external monitor. 2. Scheduled physical chasis teardown to reseat the eDP ribbon cable or replace the panel assembly. |
 
 ---
 
-## Key Takeaways
+## 💡 Key Takeaways
  * **Logical Elimination:** Always test non-invasive variables first (external displays, safe mode, BIOS) before opening hardware chasis.
  * **POST Verification:** Checking hardware behavior inside the BIOS is best for separating software driver issues from physical component failures.
 
