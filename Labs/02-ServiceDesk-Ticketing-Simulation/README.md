@@ -70,7 +70,7 @@ This lab demonstrates hands-on experience with Tier 1 Help Desk operations, tick
 
 ---
 
-### Ticket #004: AD Profile Management
+### Ticket #004: Account Update - Legal Name Change
 * **User Issue:** User recently was married and has legally changed their last name, now needs AD account updated.
 * **Severity Level:** Low (P4 - Individual account update)
 * **Category:** Identity Verification / AD Administration
