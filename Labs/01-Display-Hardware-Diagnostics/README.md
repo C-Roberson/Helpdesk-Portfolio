@@ -21,18 +21,18 @@
 ---
 
 ## Diagnostic Walkthrough
-  1. Initial triage & external output verification
-    * **Observation:** Laptop powered on successfully (power indicator active, cooling fans operational, keyboard backlights illuminated), but the internal display remained completely black.
-    *  **Action:** Connected an external monitor via HDMI to test video output.
-    *  **Result:** External monitor displayed the Windows desktop normally. This isolated the failure, proving that the CPU, mainboard, and graphics processor (GPU) were functional.
+  ***1. Initial triage & external output verification***
+* **Observation:** Laptop powered on successfully (power indicator active, cooling fans operational, keyboard backlights illuminated), but the internal display remained completely black.
+* **Action:** Connected an external monitor via HDMI to test video output.
+* **Result:** External monitor displayed the Windows desktop normally. This isolated the failure, proving that the CPU, mainboard, and graphics processor (GPU) were functional.
      
-  3. Graphics Driver Subsystem Reset
-    * **Action:** Attempted to force-reload the graphics driver using the Windows shortcut (`Win + Ctrl + Shift + B`).
-    *  **Result:** No screen flicker or audio beep occurred, indicating that Windows was failing to establish a low-level hardware handshake with the internal panel.
+  ***3. Graphics Driver Subsystem Reset***
+* **Action:** Attempted to force-reload the graphics driver using the Windows shortcut (`Win + Ctrl + Shift + B`).
+* **Result:** No screen flicker or audio beep occurred, indicating that Windows was failing to establish a low-level hardware handshake with the internal panel.
      
-  4. BIOS Level Hardware Isolation (POST Environment)
-    * **Action:** Restarted the machine and entered the BIOS/UEFI setup utility.
-    * **Result:** Internal screen remained dead, and when external monitor was disconnected, unit remained on but no change to internal screen. Because graphics drivers do not load in the BIOS environment, this ruled out the Windows driver corruption or OS-level display configurations.
+  ***4. BIOS Level Hardware Isolation (POST Environment)***
+* **Action:** Restarted the machine and entered the BIOS/UEFI setup utility.
+* **Result:** Internal screen remained dead, and when external monitor was disconnected, unit remained on but no change to internal screen. Because graphics drivers do not load in the BIOS environment, this ruled out the Windows driver corruption or OS-level display configurations.
    
 ---
 
