@@ -17,6 +17,16 @@ Designed and implemented an isolated enterprise domain environment (`home.lab`) 
 | **Symptom/Issue** | **Root Cause** | **Resolution** |
 | :--- | :--- | :--- |
 | Client workstation failed initial domain join with "The network path was not found." | The client virtual machine NIC was attached to a Bridged Adapter instead of the isolated NAT Network. | Switched the adapter settings back to the correct NAT Network, verified DNS connectivity using nslookup home.lab, and retried the domain join successfully. |
+| Security banner GPO failed to apply to client workstation `FN-WS01` | The workstation was still in the default `Computers` container instead of newly created `Workstations` OU. | Moved client machine object to target OU via PowerShell. Verified the GPO registry key exists in AD. Returned to `FN-WS01`, ran `gpupdate /force`, then restarted machine confirmed Security banner pops up as intended. |
+
+---
+
+## Phase 2: Group Policy Object (GPO) Deployment
+To enforce baseline security, compliance, and custom user configurations across the environment, the following GPOs were deployed via PowerShell and linked to specific Organizational Units (OUs):
+
+| GPO Name | Target OU | Enforcement Type | Description & Purpose |
+| :--- | :--- | :--- | :--- |
+| **`Workstation-Security-Banner`** | `OU=Workstations` | Computer Configuration | Displays a legal compliance warning notice prior to user login. |
 
 ---
 
